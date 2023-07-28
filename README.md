@@ -25,4 +25,4 @@
 
 ### Посмотреть сайт можно по ссылке ↓
 
-[«Сам Проект»](https://skazyss.github.io/ecommerce/index.html)
+[«Сам Проект»](https://skazyss.github.io/Ecommerce/index.html)
