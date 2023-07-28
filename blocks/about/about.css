@@ -1,0 +1,73 @@
+.about-hero{
+    background-image: url('../../images/hero/book.png') ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    letter-spacing: 1vh;
+    padding: 10px;
+}
+
+.about-hero p{
+    font-size: 17px;
+    color: rgb(87, 21, 21);
+}
+
+.about-head{
+    padding: 40px 80px;
+    display: flex;
+    align-items: center;
+}
+
+.about-head img{
+    width: 30%;
+    height: auto;
+}
+
+.about-head div{
+    padding-left: 40px;
+}
+
+.about-main{
+    padding: 40px 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.about__container{
+    max-width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.about__description{
+    display: flex;
+    padding-bottom: 20px;
+    max-width: 500px;
+}
+
+.about__description img{
+    width: 120px;
+    height: 120px;
+    margin-right: 20px;
+    padding-bottom: 20px;
+    transition: transform 0.3s ease-in-out; 
+}
+
+.about__description img:hover{
+    transform: scale(1.17); 
+}
+
+.about__description h6{
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+}
+
+.about-main h1 {
+    padding-bottom: 30px;
+}

@@ -1,0 +1,23 @@
+.hero__text{
+    padding: 0 120px;
+    font-family: 'BitterBold';
+}
+
+.hero h4{
+    padding-bottom: 15px;
+    color: rgb(0,76,106);
+}
+.hero h2{
+    color: rgb(0,76,106);
+}
+
+.hero h1{
+    color: rgb(255, 126, 109);
+}
+
+.hero button{
+    background-color: transparent;
+    font-size: 20px;
+    padding: 14px 80px 14px 65px;
+    color: rgb(0,76,106)
+}

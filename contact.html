@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Skazyss</title>
+  <link rel="stylesheet" href="./pages/index.css">
+</head>
+
+<body class="page">
+
+  <header class="header">
+    <a href="#"><img src='images/header/logo.png' class="logo" ></a>
+    <div>
+      <ul class="navbar" id="navbar">
+        <li><a href="index.html">Главная</a></li>
+        <li><a href="shop.html">Магазин</a></li>
+        <li><a href="about.html">О нас</a></li>
+        <li><a class="active" href="contact.html">Контакты</a></li>
+        <li class="navbar__bag"><a href="cart.html"><img src='images/header/bag.png'></a></li>    
+      </ul>
+    </div>
+
+    <select class="nav__list" onchange="location = this.options[this.selectedIndex].value;">
+      <option value="index.html">Главная</option>
+      <option value="shop.html">Магазин</option>
+      <option value="about.html">О нас</option>
+      <option value="#">Контакты</option>
+      <option value="cart.html">Корзина</option>
+    </select>
+  </header>
+
+  <main class="main">
+
+
+    <section id="contact-hero" class="contact-hero">
+      <div class="hero__text">
+        <h2>Свяжитесь с нами</h2>
+        <p>Мы также доступны в социальных сетях.</p>
+        <p>Служба поддержки отвечает в порядке очереди</p>
+    </div>
+    </section>
+
+    <section id="contact-main" class="contact-main">
+        <div class="contact__container">
+            <div class="contact__description">
+                <img src="images/contacts/tel.png" alt="">
+                <div class="contact__good">
+                    <h6>Телефон</h6>
+                    <p>+7 999 777 77 77</p>
+                </div>
+            </div>
+            <div class="contact__description">
+                <img src="images/contacts/mail.png" alt="">
+                <div class="contact__good">
+                    <h6>Почта</h6>
+                    <p>skazyss@skazyss.com</p>
+                </div>
+            </div>
+            <div class="contact__description">
+                <img src="images/contacts/geo.png" alt="">
+                <div class="contact__good">
+                    <h6>Адрес</h6>
+                    <p>Москва, Пресненская набережная, 10, стр. 1</p>
+                </div>
+            </div>
+            <div class="contact__description">
+                <img src="images/contacts/door.png" alt="">
+                <div class="contact__good">
+                    <h6>Часы работы</h6>
+                    <p>7:00 - 23:00, С Понедельника по Субботу</p>
+                </div>
+            </div>
+
+        </div>
+
+        </div>
+    </section>
+
+    <section id="contact-form" class="contact-form">
+        <form action="">
+            <span>Свяжитесь с нами</span>
+            <h2>Ваше письмо очень ценно для нас</h2>
+            <input type="text" placeholder="Ваше Имя">
+            <input type="text" placeholder="Ваша Почта">
+            <input type="text" placeholder="Тема сообщения">
+            <textarea name="" id="" cols="30" rows="10" placeholder="Напишите нам" ></textarea>
+            <button>Отправить</button>
+        </form>
+        <div class="contact-picture">
+            <img src="images/contacts/tec.png" alt="">
+        </div>
+    </section>
+
+    <section id="map" class="map">
+        <h1>Мы на карте</h1>
+        <div class="contact-map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7553.019995112485!2d37.52991779777351!3d55.749359479612636!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b54bdd991da2dd%3A0x626ff213db8d7b95!2z0J_RgNC10YHQvdC10L3RgdC60LDRjyDQvdCw0LEuLCAxMNGBMSwg0JzQvtGB0LrQstCwLCAxMjMzMTc!5e0!3m2!1sru!2sru!4v1682300418441!5m2!1sru!2sru" width="100%" height="550" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+
+    </section>
+
+
+  </main>
+
+
+  <footer class="footer">
+    <div class="footer__col">
+      <img class="footer__logo" src='images/footer/logo.png' alt="">
+      <h4>Контакты</h4>
+      <p><strong>Адрес: </strong> Москва, Пресненская набережная, 10, стр. 1</p>
+      <p><strong>Часы работы: </strong> 7:00 - 23:00, С Понедельника по Субботу</p>
+      <p><strong>Телефон: </strong> +7 999 777 77 77</p>
+    </div>
+
+    <div class="footer__col">
+      <h4>Помощь и Поддержка</h4>
+      <a href="#">О нас</a>
+      <a href="#">Цена Доставки</a>
+      <a href="#">Возврат Товара</a>
+      <a href="#">Как Сделать Заказ</a>
+      <a href="#">Как Отследить Посылку</a>
+    </div>
+
+    <div class="footer__col">
+      <h4>Обслуживание клиентов</h4>
+      <a href="#">Связаться с нами</a>
+      <a href="#">Способы оплаты</a>
+      <a href="#">Бонусные баллы</a>
+      <a href="#">Ответственность</a>
+    </div>
+
+    <div class="footer__col">
+      <h4>Установить приложение</h4>
+      <p>Поддерживаемые платформы: IOS, Android</p>
+      <div class="row">
+        <img src='images/footer/apple.png' alt="">
+        <img src='images/footer/android.png' alt="">
+      </div>
+      <p>Мы принимаем</p>
+      <img src='images/footer/pay.png' alt="">
+    </div>
+
+    <div class="author">
+      <p>©2000-2023 SKAZYSS Все права защищены</p>
+    </div>
+
+
+  </footer>
+
+
+  <script src="./script/index.js"></script>
+</body>
+</html>

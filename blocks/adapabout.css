@@ -1,0 +1,34 @@
+@media (max-width:1650px) {
+    .about-head {
+        flex-direction: column;
+    }
+
+    .about-head img{
+        min-width: 300px;
+    }
+
+    .about-main h1 {
+        text-align: center;
+        line-height: 6vh;
+    }
+}
+
+@media (max-width:790px) {
+
+    .about__description img:hover {
+        transform: none;
+    }
+    .about__description img {
+        width: 120px;
+        height: 120px;
+        margin: auto;
+    }
+
+    .about__description {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        margin: auto;
+    }
+}

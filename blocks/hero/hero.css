@@ -1,0 +1,13 @@
+.hero{
+    background-image: url('../../images/hero/hero2.png');
+    height: 90vh;
+    width: 100%;
+    background-size: cover;
+    background-position: top 25% right 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    line-height: 5px;
+}
+

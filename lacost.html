@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Skazyss</title>
+  <link rel="stylesheet" href="./pages/index.css">
+</head>
+
+<body class="page">
+
+  <header class="header">
+    <a href="#"><img src='images/header/logo.png' class="logo"></a>
+    <div>
+      <ul class="navbar" id="navbar">
+        <li><a href="index.html">Главная</a></li>
+        <li><a href="shop.html">Магазин</a></li>
+        <li><a href="about.html">О нас</a></li>
+        <li><a href="contact.html">Контакты</a></li>
+        <li class="navbar__bag"><a href="cart.html"><img src='images/header/bag.png'></a></li>
+      </ul>
+    </div>
+
+    <select class="nav__list" onchange="location = this.options[this.selectedIndex].value;">
+      <option value="index.html">Главная</option>
+      <option value="shop.html">Магазин</option>
+      <option value="about.html">О нас</option>
+      <option value="contact.html">Контакты</option>
+      <option value="cart.html">Корзина</option>
+    </select>
+  </header>
+
+  <main class="main">
+
+
+  </main>
+  <section id="itdetails" class="itdetails">
+    <div class="it__maximage">
+        <img src="images/goods/shirt1.png" width="100%" id="MainImg" alt="">
+        <div class="it__group__images">
+            <div class="it__images__col">
+                <img src="images/goods/shirt1.png" width="100%" class="smallImg" alt="">
+            </div>
+            <div class="it__images__col">
+                <img src="images/goods/shirt2.png" width="100%" class="smallImg" alt="">
+            </div>
+            <div class="it__images__col">
+                <img src="images/goods/shirt3.png" width="100%" class="smallImg" alt="">
+            </div>
+            <div class="it__images__col">
+                <img src="images/goods/shirt4.png" width="100%" class="smallImg" alt="">
+            </div>
+        </div>
+    </div>
+
+    <div class="it__description">
+        <h6>Магазин / Каталог</h6>
+        <h4>Lacoste Shirt</h4>
+        <h2>$180.00</h2>
+        <select>
+            <option>Выберите размер</option>
+            <option>7</option>
+            <option>8</option>
+            <option>9</option>
+            <option>10</option>
+        </select>
+        <select>
+            <option>Выберите цвет</option>
+            <option>коричневый</option>
+            <option>красный</option>
+            <option>синий</option>
+            <option>светлый</option>
+        </select>
+        <input type="number" value="1">
+        <button class="normal">В корзину</button>
+        <h4>Описание продукта</h4>
+        <span>
+            Lacoste Shirt - это высококачественная мужская рубашка от известного французского бренда Lacoste. Она изготовлена из мягкого и комфортного хлопкового материала, который обеспечивает чувство свежести и комфорта на протяжении всего дня. Рубашка имеет элегантный дизайн и включает в себя воротник и длинные рукава с манжетами на пуговицах. На груди расположен символ фирменного крокодила Lacoste, который является одним из наиболее узнаваемых иконических логотипов в мире моды. Lacoste Shirt доступна в различных цветах и дизайнах, что позволяет каждому выбрать подходящий вариант для любой ситуации, будь то деловая встреча, свидание или отдых на выходных. Она легко сочетается с джинсами или брюками, что делает ее универсальной и практичной рубашкой для любого гардероба. Кроме того, Lacoste Shirt отличается высоким качеством и долговечностью, благодаря чему она становится отличным выбором для тех, кто ищет классическую рубашку, которая будет служить долго и выглядеть безупречно в любой ситуации.
+  </section>
+
+  <section id="goods" class="goods">
+    <h2>Рекомендуемые продукты</h2>
+    <p>Весенняя коллекция</p>
+    <div class="goods__container">
+      <div class="goods__products" onclick="window.location.href='tommy.html';">
+        <img src='images/goods/tommy1.PNG' alt="">
+        <div class="goods__about">
+          <div class="stars">
+            <span class="active"></span>	
+            <span class="active"></span>    
+            <span class="active"></span>  
+            <span class="active"></span>    
+            <span class="active"></span>
+          </div>
+          <span><br>Tommy Hilfiger</span>
+          <h5>Polo</h5>
+          <h4>130$</h4>
+        </div>
+        <div class="goods__cart">
+          <a href="#"><i><img src='images/header/bag.png' alt=""></i></a>
+        </div> 
+      </div>
+
+      <div class="goods__products" onclick="window.location.href='jordans.html';">
+        <img src='images/goods/jordan1.png' alt="">
+        <div class="goods__about">
+          <div class="stars">
+            <span class="active"></span>	
+            <span class="active"></span>    
+            <span class="active"></span>  
+            <span class="active"></span>    
+            <span class="active"></span>
+          </div>
+          <span><br>Jordan</span>
+          <h5>Sneakers</h5>
+          <h4>300$</h4>
+        </div>
+        <div class="goods__cart">
+          <a href="#"><i><img src='images/header/bag.png' alt=""></i></a>
+        </div> 
+      </div>
+
+      <div class="goods__products" onclick="window.location.href='lacost.html';">
+        <img src='images/goods/shirt1.png' alt="">
+        <div class="goods__about">
+          <div class="stars">
+            <span class="active"></span>	
+            <span class="active"></span>    
+            <span class="active"></span>  
+            <span class="active"></span>    
+            <span class="active"></span>
+          </div>
+          <span><br>Lacoste</span>
+          <h5>Shirt</h5>
+          <h4>180$</h4>
+        </div>
+        <div class="goods__cart">
+          <a href="#"><i><img src='images/header/bag.png' alt=""></i></a>
+        </div> 
+      </div>
+
+      <div class="goods__products" onclick="window.location.href='tommy.html';">
+        <img src='images/goods/tommy2.PNG' alt="">
+        <div class="goods__about">
+          <div class="stars">
+            <span class="active"></span>	
+            <span class="active"></span>    
+            <span class="active"></span>  
+            <span class="active"></span>    
+            <span class="active"></span>
+          </div>
+          <span><br>Tommy Hilfiger</span>
+          <h5>Polo</h5>
+          <h4>130$</h4>
+        </div>
+        <div class="goods__cart">
+          <a href="#"><i><img src='images/header/bag.png' alt=""></i></a>
+        </div> 
+      </div>      
+    </div>
+
+  </section>
+
+  <footer class="footer">
+    <div class="footer__col">
+      <img class="footer__logo" src='images/footer/logo.png' alt="">
+      <h4>Контакты</h4>
+      <p><strong>Адрес: </strong> Москва, Пресненская набережная, 10, стр. 1</p>
+      <p><strong>Часы работы: </strong> 7:00 - 23:00, С Понедельника по Субботу</p>
+      <p><strong>Телефон: </strong> +7 999 777 77 77</p>
+    </div>
+
+    <div class="footer__col">
+      <h4>Помощь и Поддержка</h4>
+      <a href="#">О нас</a>
+      <a href="#">Цена Доставки</a>
+      <a href="#">Возврат Товара</a>
+      <a href="#">Как Сделать Заказ</a>
+      <a href="#">Как Отследить Посылку</a>
+    </div>
+
+    <div class="footer__col">
+      <h4>Обслуживание клиентов</h4>
+      <a href="#">Связаться с нами</a>
+      <a href="#">Способы оплаты</a>
+      <a href="#">Бонусные баллы</a>
+      <a href="#">Ответственность</a>
+    </div>
+
+    <div class="footer__col">
+      <h4>Установить приложение</h4>
+      <p>Поддерживаемые платформы: IOS, Android</p>
+      <div class="row">
+        <img src='images/footer/apple.png' alt="">
+        <img src='images/footer/android.png' alt="">
+      </div>
+      <p>Мы принимаем</p>
+      <img src='images/footer/pay.png' alt="">
+    </div>
+
+    <div class="author">
+      <p>©2000-2023 SKAZYSS Все права защищены</p>
+    </div>
+
+
+  </footer>
+
+  <script>
+    var MainImg = document.getElementById("MainImg");
+    var minimg = document.getElementsByClassName("smallImg");
+
+    minimg[0].onclick = function(){
+        MainImg.src = minimg[0].src;
+    }
+    minimg[1].onclick = function(){
+        MainImg.src = minimg[1].src;
+    }
+    minimg[2].onclick = function(){
+        MainImg.src = minimg[2].src;
+    }
+    minimg[3].onclick = function(){
+        MainImg.src = minimg[3].src;
+    }
+  </script>
+
+
+  <script src="./script/index.js"></script>
+</body>
+</html>

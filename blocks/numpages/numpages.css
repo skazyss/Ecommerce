@@ -1,0 +1,16 @@
+.numpages{
+    padding-top: 0;
+    padding-bottom: 40px;
+    text-align: center;
+}
+
+.numpages a{
+    text-decoration: none;
+    background-color: rgb(255,239,227);
+    padding: 15px 50px;
+    border: 2px solid;
+    border-color: black;
+    border-radius: 4px;
+    color: rgb(0, 0, 0);
+    font-weight: 600;
+}

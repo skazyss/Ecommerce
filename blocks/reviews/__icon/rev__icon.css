@@ -1,0 +1,8 @@
+.rev__icon span{
+    font-size: 40px;
+    color: rgb(0, 0, 0);
+}
+
+.rev__icon > span:before{
+    content: '❡';
+}

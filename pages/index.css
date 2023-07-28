@@ -1,0 +1,93 @@
+@import '../vendor/normalize.css';
+@import '../vendor/variables.css';
+@import '../vendor/fonts/fonts.css';
+/* Blocks */ 
+@import '../blocks/page/page.css';
+/* Header */ 
+@import '../blocks/header/header.css';
+@import '../blocks/navbar/navbar.css';
+@import '../blocks/header/__title/header__title.css';
+@import '../blocks/navbar/__bag/navbar__bag.css';
+@import '../blocks/hero/__text/hero__text.css';
+/* Main */
+@import '../blocks/main/main.css';
+@import '../blocks/companies/companies.css';
+@import '../blocks/companies/__box/companies__box.css';
+@import '../blocks/hero/hero.css';
+@import '../blocks/goods/goods.css';
+@import '../blocks/goods/__products/goods__products.css';
+@import '../blocks/goods/__brand/goods__brand.css';
+@import '../blocks/goods/__stars/goods__stars.css';
+@import '../blocks/goods/__cart/goods__cart.css';
+@import '../blocks/goods/__about/goods__about.css';
+@import '../blocks/goods/__container/goods__container.css';
+@import '../blocks/reviews/stars/__items.css';
+@import '../blocks/reviews/reviews.css';
+@import '../blocks/reviews/__container/rev__container.css';
+@import '../blocks/reviews/__row/rev__row.css';
+@import '../blocks/reviews/__col3/rev__col3.css';
+@import '../blocks/reviews/__icon/rev__icon.css';
+@import '../blocks/footer/__col/footer__col.css';
+@import '../blocks/adaptive.css';
+@import '../blocks/navbar/__burger/navbar__burger.css';
+@import '../blocks/shop-hero/shop-hero.css';
+@import '../blocks/numpages/numpages.css';
+@import '../blocks/about/about.css';
+@import '../blocks/itdetails/itdetails.css';
+@import '../blocks/contacts/contacts.css';
+@import '../blocks/navbar/__list/nav__list.css';
+@import '../blocks/adapproduct.css';
+@import '../blocks/adapabout.css';
+@import '../blocks/adapcontact.css';
+@import '../blocks/adaptovar.css';
+/* Footer */
+@import '../blocks/footer/footer.css';
+
+
+html {
+  scroll-behavior: smooth;
+  font-family: 'Bitter';
+}
+
+
+h1 {
+    font-size: 50px;
+    line-height: 40px;
+    color: #222;
+  }
+  
+  h2 {
+    font-size: 46px;
+    line-height: 30px;
+    color: #222;
+  }
+  
+  h4 {
+    font-size: 20px;
+    color: #222;
+  }
+  
+  h6 {
+    font-weight: 700;
+    font-size: 12px;
+  }
+  
+  p {
+    font-size: 16px;
+    color: #465b52;
+    margin: 15px 0 20px 0;
+  }
+  
+  .section-p1 {
+    padding: 40px 80px;
+  }
+  
+  .section-m1 {
+    margin: 40px 0;
+  }
+  
+  body {
+    width: 100%;
+  }
+
+  

@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Skazyss</title>
+  <link rel="stylesheet" href="./pages/index.css">
+</head>
+
+<body class="page">
+
+  <header class="header">
+    <a href="#"><img src='images/header/logo.png' class="logo"></a>
+    <div>
+      <ul class="navbar" id="navbar">
+        <li><a href="index.html">Главная</a></li>
+        <li><a href="shop.html">Магазин</a></li>
+        <li><a href="about.html">О нас</a></li>
+        <li><a href="contact.html">Контакты</a></li>
+        <li class="navbar__bag"><a href="cart.html"><img src='images/header/bag.png'></a></li>
+      </ul>
+    </div>
+
+    <select class="nav__list" onchange="location = this.options[this.selectedIndex].value;">
+      <option value="index.html">Главная</option>
+      <option value="shop.html">Магазин</option>
+      <option value="about.html">О нас</option>
+      <option value="contact.html">Контакты</option>
+      <option value="cart.html">Корзина</option>
+    </select>
+  </header>
+
+  <main class="main">
+
+
+  </main>
+  <section id="itdetails" class="itdetails">
+    <div class="it__maximage">
+        <img src="images/goods/jordan1.png" width="100%" id="MainImg" alt="">
+        <div class="it__group__images">
+            <div class="it__images__col">
+                <img src="images/goods/jordan1.png" width="100%" class="smallImg" alt="">
+            </div>
+            <div class="it__images__col">
+                <img src="images/goods/jordan2.png" width="100%" class="smallImg" alt="">
+            </div>
+            <div class="it__images__col">
+                <img src="images/goods/jordan3.png" width="100%" class="smallImg" alt="">
+            </div>
+            <div class="it__images__col">
+                <img src="images/goods/jordan4.png" width="100%" class="smallImg" alt="">
+            </div>
+        </div>
+    </div>
+
+    <div class="it__description">
+        <h6>Магазин / Каталог</h6>
+        <h4>Jordan 1 Sneakers</h4>
+        <h2>$300.00</h2>
+        <select>
+            <option>Выберите размер</option>
+            <option>9.5 US</option>
+            <option>10 US</option>
+            <option>10.5 US</option>
+            <option>11 US</option>
+        </select>
+        <select>
+            <option>Выберите цвет</option>
+            <option>росписные</option>
+            <option>с оранжевым контуром</option>
+            <option>с золотым контуром</option>
+            <option>с обратным свушем</option>
+        </select>
+        <input type="number" value="1">
+        <button class="normal">В корзину</button>
+        <h4>Описание продукта</h4>
+        <span>
+            Nike Jordan 1 - это икона стиля и классики, созданная совместно с легендой баскетбола Майклом Джорданом. Эти кроссовки объединяют в себе внушительную историю, легендарный дизайн и высокое качество. Кроссовки Nike Jordan 1 имеют уникальный внешний вид, сочетающий в себе различные материалы и цвета, что делает их неповторимыми. Они изготовлены из качественной кожи и замши, обеспечивая прочность и комфорт при каждом шаге. Кроме того, эти кроссовки обладают высокими технологическими характеристиками, такими как амортизация в области пятки и подошве, что обеспечивает комфорт и защиту от ударов. Боковая панель с логотипом "Swoosh" и крыльями Джордана делают эти кроссовки неповторимыми и узнаваемыми. Nike Jordan 1 идеально подходят как для спорта, так и для повседневной носки, придавая стильный и элегантный вид любому образу. Они доступны в различных цветах и дизайнах, что позволяет каждому выбрать свой идеальный вариант.
+    </div>
+  </section>
+
+  <section id="goods" class="goods">
+    <h2>Рекомендуемые продукты</h2>
+    <p>Весенняя коллекция</p>
+    <div class="goods__container">
+      <div class="goods__products" onclick="window.location.href='tommy.html';">
+        <img src='images/goods/tommy1.PNG' alt="">
+        <div class="goods__about">
+          <div class="stars">
+            <span class="active"></span>	
+            <span class="active"></span>    
+            <span class="active"></span>  
+            <span class="active"></span>    
+            <span class="active"></span>
+          </div>
+          <span><br>Tommy Hilfiger</span>
+          <h5>Polo</h5>
+          <h4>130$</h4>
+        </div>
+        <div class="goods__cart">
+          <a href="#"><i><img src='images/header/bag.png' alt=""></i></a>
+        </div> 
+      </div>
+
+      <div class="goods__products" onclick="window.location.href='jordans.html';">
+        <img src='images/goods/jordan1.png' alt="">
+        <div class="goods__about">
+          <div class="stars">
+            <span class="active"></span>	
+            <span class="active"></span>    
+            <span class="active"></span>  
+            <span class="active"></span>    
+            <span class="active"></span>
+          </div>
+          <span><br>Jordan</span>
+          <h5>Sneakers</h5>
+          <h4>300$</h4>
+        </div>
+        <div class="goods__cart">
+          <a href="#"><i><img src='images/header/bag.png' alt=""></i></a>
+        </div> 
+      </div>
+
+      <div class="goods__products" onclick="window.location.href='lacost.html';">
+        <img src='images/goods/shirt1.png' alt="">
+        <div class="goods__about">
+          <div class="stars">
+            <span class="active"></span>	
+            <span class="active"></span>    
+            <span class="active"></span>  
+            <span class="active"></span>    
+            <span class="active"></span>
+          </div>
+          <span><br>Lacoste</span>
+          <h5>Shirt</h5>
+          <h4>180$</h4>
+        </div>
+        <div class="goods__cart">
+          <a href="#"><i><img src='images/header/bag.png' alt=""></i></a>
+        </div> 
+      </div>
+
+      <div class="goods__products" onclick="window.location.href='tommy.html';">
+        <img src='images/goods/tommy2.PNG' alt="">
+        <div class="goods__about">
+          <div class="stars">
+            <span class="active"></span>	
+            <span class="active"></span>    
+            <span class="active"></span>  
+            <span class="active"></span>    
+            <span class="active"></span>
+          </div>
+          <span><br>Tommy Hilfiger</span>
+          <h5>Polo</h5>
+          <h4>130$</h4>
+        </div>
+        <div class="goods__cart">
+          <a href="#"><i><img src='images/header/bag.png' alt=""></i></a>
+        </div> 
+      </div>      
+    </div>
+
+  </section>
+
+  <footer class="footer">
+    <div class="footer__col">
+      <img class="footer__logo" src='images/footer/logo.png' alt="">
+      <h4>Контакты</h4>
+      <p><strong>Адрес: </strong> Москва, Пресненская набережная, 10, стр. 1</p>
+      <p><strong>Часы работы: </strong> 7:00 - 23:00, С Понедельника по Субботу</p>
+      <p><strong>Телефон: </strong> +7 999 777 77 77</p>
+    </div>
+
+    <div class="footer__col">
+      <h4>Помощь и Поддержка</h4>
+      <a href="#">О нас</a>
+      <a href="#">Цена Доставки</a>
+      <a href="#">Возврат Товара</a>
+      <a href="#">Как Сделать Заказ</a>
+      <a href="#">Как Отследить Посылку</a>
+    </div>
+
+    <div class="footer__col">
+      <h4>Обслуживание клиентов</h4>
+      <a href="#">Связаться с нами</a>
+      <a href="#">Способы оплаты</a>
+      <a href="#">Бонусные баллы</a>
+      <a href="#">Ответственность</a>
+    </div>
+
+    <div class="footer__col">
+      <h4>Установить приложение</h4>
+      <p>Поддерживаемые платформы: IOS, Android</p>
+      <div class="row">
+        <img src='images/footer/apple.png' alt="">
+        <img src='images/footer/android.png' alt="">
+      </div>
+      <p>Мы принимаем</p>
+      <img src='images/footer/pay.png' alt="">
+    </div>
+
+    <div class="author">
+      <p>©2000-2023 SKAZYSS Все права защищены</p>
+    </div>
+
+
+  </footer>
+
+  <script>
+    var MainImg = document.getElementById("MainImg");
+    var minimg = document.getElementsByClassName("smallImg");
+
+    minimg[0].onclick = function(){
+        MainImg.src = minimg[0].src;
+    }
+    minimg[1].onclick = function(){
+        MainImg.src = minimg[1].src;
+    }
+    minimg[2].onclick = function(){
+        MainImg.src = minimg[2].src;
+    }
+    minimg[3].onclick = function(){
+        MainImg.src = minimg[3].src;
+    }
+  </script>
+
+
+  <script src="./script/index.js"></script>
+</body>
+</html>

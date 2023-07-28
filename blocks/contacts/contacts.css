@@ -1,0 +1,110 @@
+.contact-hero {
+    background-image: url('../../images/hero/city.png') ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    letter-spacing: 1vh;
+    padding: 10px;
+}
+
+
+.contact-hero p{
+    color: rgb(73, 59, 59);
+}
+
+
+.contact-main {
+    padding: 40px 80px;
+}
+
+.contact__container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 200px;
+}
+
+.contact__description {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 20px;
+    max-width: 200px;
+    min-width: 200px;
+}
+
+.contact__description img {
+    width: 60px;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.contact__description h6 {
+    margin: 0;
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 15px;
+}
+
+.contact__description p {
+    margin: 0;
+    text-align: center;
+}
+
+
+.contact-form{
+    display: flex;
+    justify-content: space-between;
+    margin: 40px;
+    padding: 70px;
+    border: 2px solid #9e8484;
+}
+
+.contact-form form{
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.contact-form form span{
+    font-size: 12px;
+}
+
+.contact-form form h2{
+    font-size: 26px;
+    line-height: 35px;
+    padding: 20px 0;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+}
+
+.contact-form form input, .contact-form form textarea{
+    width: 100%;
+    padding: 12px 15px;
+    outline: none;
+    margin-bottom: 20px;
+    border: 2px solid #9e8484;
+}
+
+.contact-form form button{
+    background-color: rgb(255,239,227);
+    padding: 15px 50px;
+    border: 2px solid #9e8484;
+    border-radius: 4px;
+    color: rgb(0, 0, 0);
+}
+
+
+.map{
+    margin: 50px 0;
+}
+
+.map h1{
+    padding-bottom: 30px;
+    text-align: center;
+}

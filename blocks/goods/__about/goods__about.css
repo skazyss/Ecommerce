@@ -1,0 +1,25 @@
+.goods__about{
+    text-align: start;
+    padding: 10px 0;
+}
+
+.goods__about span{
+    color: rgb(166, 182, 177);
+    font-size: 20px;
+}
+
+.goods__about h5{
+    color: black;
+    font-size: 30px;
+    margin-top: 5px;
+    margin-bottom: 0px;
+}
+
+.goods__about h4{
+    color: black;
+    font-size: 30px;
+    margin-top: 7px;
+    font-size: 25px;
+    color: rgb(250, 185, 45);
+    margin-bottom: 0px;
+}

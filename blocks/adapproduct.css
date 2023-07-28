@@ -1,0 +1,16 @@
+@media (max-width:1550px) {
+    .hero__text h2{
+        line-height: 7vh;
+    }
+    .goods__best h2{
+        line-height: 5vh;
+    }
+
+    .goods__best {
+        padding: 40px 50px;
+    }
+}
+
+
+
+

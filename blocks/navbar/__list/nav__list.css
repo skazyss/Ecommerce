@@ -1,0 +1,15 @@
+.nav__list {
+    display: none;
+}
+
+ @media screen and (max-width: 930px) {
+    .nav__list {
+        display: block !important;
+        background-color: transparent;
+        font-size: 15px;
+        padding: 10px 20px;
+        color: rgb(0, 0, 0);
+        border-radius: 10px;
+
+    }
+ }

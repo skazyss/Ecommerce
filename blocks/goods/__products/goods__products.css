@@ -1,0 +1,40 @@
+.goods__products{
+    width: 20%;
+    min-width: 250px;
+    padding: 10px 13px;
+    border: 1px solid #cce7d0;
+    cursor: pointer;
+    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.04);
+    margin: 25px 0;
+    transition: 0.3s ease;
+    position: relative;
+}
+.goods__products img {
+    width: 100%;
+}
+
+.goods__products:hover{
+    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.2);
+}
+
+.goods__products__best{
+    width: 20%;
+    min-width: 250px;
+    padding: 10px 13px;
+    border: 1px solid #cce7d0;
+    cursor: pointer;
+    box-shadow: 20px 20px 30px rgba(0, 255, 115, 0.1);
+    margin: 25px 0;
+    transition: 0.3s ease;
+    position: relative;
+    border: 1px solid;
+    border-color: rgb(14, 196, 90);
+}
+
+.goods__products__best img {
+    width: 100%;
+}
+
+.goods__products__best:hover{
+    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.2);
+}__best

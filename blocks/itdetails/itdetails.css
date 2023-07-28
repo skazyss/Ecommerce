@@ -1,0 +1,59 @@
+.itdetails {
+    padding-left: 120px;
+    padding-top: 40px;
+    display: flex;
+    margin-top: 20px;
+}
+
+.it__maximage{
+    width: 30%;
+    margin-right: 50px;
+}
+
+
+.it__description{
+    width: 60%;
+    padding-top: 30px;
+}
+
+.it__group__images{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.it__images__col{
+    flex-basis: 24%;
+    cursor: pointer;
+}
+
+.it__description select{
+    display: block;
+    padding: 5px 10px;
+    margin-bottom: 10px;
+}
+.it__description select:focus{
+    outline: none;
+}
+
+.it__description input{
+    width: 50px;
+    height: 40px;
+    padding-left: 10px;
+    font-size: 20px;
+    margin-right: 10px;
+}
+.it__description input:focus{
+    outline: none;
+}
+
+.it__description button{
+    font-size: 20px;
+    padding: 10px 50px;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 239, 227);
+}
+
+.it__description span{
+    line-height: 25px;
+}

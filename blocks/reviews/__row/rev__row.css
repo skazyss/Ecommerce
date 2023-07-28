@@ -1,0 +1,7 @@
+.rev__row{
+    padding: 10px 13px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}

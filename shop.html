@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Skazyss</title>
+  <link rel="stylesheet" href="./pages/index.css">
+</head>
+
+<body class="page">
+
+  <header class="header">
+    <a href="#"><img src='images/header/logo.png' class="logo" ></a>
+    <div>
+      <ul class="navbar" id="navbar">
+        <li><a href="index.html">Главная</a></li>
+        <li><a class="active" href="shop.html">Магазин</a></li>
+        <li><a href="about.html">О нас</a></li>
+        <li><a href="contact.html">Контакты</a></li>
+        <li class="navbar__bag"><a href="cart.html"><img src='images/header/bag.png'></a></li>
+      </ul>
+    </div>
+
+    <select class="nav__list" onchange="location = this.options[this.selectedIndex].value;">
+      <option value="index.html">Главная</option>
+      <option value="#">Магазин</option>
+      <option value="about.html">О нас</option>
+      <option value="contact.html">Контакты</option>
+      <option value="cart.html">Корзина</option>
+    </select>
+  </header>
+
+  <main class="main">
+
+
+    <section id="shop-hero" class="shop-hero">
+      <div class="hero__text">
+        <h2>БУДЬ В ТРЕНДЕ</h2>
+        <p>—25% Дополнительно на все Новинки</p>
+    </div>
+    </section>
+
+    <section id="goods__best" class="goods__best">
+        <h2>Выбор покупателей</h2>
+        <p>Самые популярные товары</p>
+        <div class="goods__container">
+          <div class="goods__products__best" onclick="window.location.href='joggers.html';">
+            <img src='images/goods/jogger1.png' alt="">
+            <div class="goods__about">
+              <div class="stars">
+                <span class="active"></span>	
+                <span class="active"></span>    
+                <span class="active"></span>  
+                <span class="active"></span>    
+                <span class="active"></span>
+              </div>
+              <span><br>Nike</span>
+              <h5>Joggers</h5>
+              <h4>100$</h4>
+            </div>
+            <div class="goods__cart">
+              <a href="#"><i><img src='images/header/bag.png' alt=""></i></a>
+            </div> 
+          </div>
+  
+          <div class="goods__products__best" onclick="window.location.href='jordans.html';">
+            <img src='images/goods/jordan1.png' alt="">
+            <div class="goods__about">
+              <div class="stars">
+                <span class="active"></span>	
+                <span class="active"></span>    
+                <span class="active"></span>  
+                <span class="active"></span>    
+                <span class="active"></span>
+              </div>
+              <span><br>Jordan 1</span>
+              <h5>Sneakers</h5>
+              <h4>300$</h4>
+            </div>
+            <div class="goods__cart">
+              <a href="#"><i><img src='images/header/bag.png' alt=""></i></a>
+            </div> 
+          </div>
+  
+          <div class="goods__products__best" onclick="window.location.href='lacost.html';">
+            <img src='images/goods/shirt2.png' alt="">
+            <div class="goods__about">
+              <div class="stars">
+                <span class="active"></span>	
+                <span class="active"></span>    
+                <span class="active"></span>  
+                <span class="active"></span>    
+                <span class="active"></span>
+              </div>
+              <span><br>Lacoste</span>
+              <h5>Shirt</h5>
+              <h4>180$</h4>
+            </div>
+            <div class="goods__cart">
+              <a href="#"><i><img src='images/header/bag.png' alt=""></i></a>
+            </div> 
+          </div>
+          <div class="goods__products__best" onclick="window.location.href='tommy.html';">
+            <img src='images/goods/tommy3.png'>
+            <div class="goods__about">
+              <div class="stars">
+                <span class="active"></span>	
+                <span class="active"></span>    
+                <span class="active"></span>  
+                <span class="active"></span>    
+                <span class="active"></span>
+              </div>
+              <span><br>Tommy Hilfiger</span>
+              <h5>Polo</h5>
+              <h4>130$</h4>
+            </div>
+            <div class="goods__cart">
+              <a href="#"><i><img src='images/header/bag.png' alt=""></i></a>
+            </div> 
+          </div>
+          
+        </div>
+  
+      </section>
+
+    <section id="goods" class="goods">
+        <h2>Каталог</h2>
+        <p>Новые предложения ежедневно</p>
+        <div class="goods__container">
+          <div class="goods__products" onclick="window.location.href='jordans.html';">
+            <img src='images/goods/jordan1.png' alt="">
+            <div class="goods__about">
+              <div class="stars">
+                <span class="active"></span>	
+                <span class="active"></span>    
+                <span class="active"></span>  
+                <span class="active"></span>    
+                <span class="active"></span>
+              </div>
+              <span><br>Jordan 1</span>
+              <h5>Sneakers</h5>
+              <h4>300$</h4>
+            </div>
+            <div class="goods__cart">
+              <a href="#"><i><img src='images/header/bag.png' alt=""></i></a>
+            </div> 
+          </div>
+  
+          <div class="goods__products" onclick="window.location.href='jordans.html';">
+            <img src='images/goods/jordan2.png' alt="">
+            <div class="goods__about">
+              <div class="stars">
+                <span class="active"></span>	
+                <span class="active"></span>    
+                <span class="active"></span>  
+                <span class="active"></span>    
+                <span class="active"></span>
+              </div>
+              <span><br>Jordan 1</span>
+              <h5>Sneakers</h5>
+              <h4>300$</h4>
+            </div>
+            <div class="goods__cart">
+              <a href="#"><i><img src='images/header/bag.png' alt=""></i></a>
+            </div> 
+          </div>
+  
+          <div class="goods__products" onclick="window.location.href='jordans.html';">
+            <img src='images/goods/jordan3.png' alt="">
+            <div class="goods__about">
+              <div class="stars">
+                <span class="active"></span>	
+                <span class="active"></span>    
+                <span class="active"></span>  
+                <span class="active"></span>    
+                <span class="active"></span>
+              </div>
+              <span><br>Jordan 1</span>
+              <h5>Sneakers</h5>
+              <h4>300$</h4>
+            </div>
+            <div class="goods__cart">
+              <a href="#"><i><img src='images/header/bag.png' alt=""></i></a>
+            </div> 
+          </div>
+  
+          <div class="goods__products" onclick="window.location.href='jordans.html';">
+            <img src='images/goods/jordan4.png' alt="">
+            <div class="goods__about">
+              <div class="stars">
+                <span class="active"></span>	
+                <span class="active"></span>    
+                <span class="active"></span>  
+                <span class="active"></span>    
+                <span class="active"></span>
+              </div>
+              <span><br>Jordan 1</span>
+              <h5>Sneakers</h5>
+              <h4>300$</h4>
+            </div>
+            <div class="goods__cart">
+              <a href="#"><i><img src='images/header/bag.png' alt=""></i></a>
+            </div> 
+          </div>
+  
+          <div class="goods__products" onclick="window.location.href='chanel.html';">
+            <img src='images/goods/chan1.png' alt="">
+            <div class="goods__about">
+              <div class="stars">
+                <span class="active"></span>	
+                <span class="active"></span>    
+                <span class="active"></span>  
+                <span class="active"></span>    
+                <span class="active"></span>
+              </div>
+              <span><br>Chanel</span>
+              <h5>Bag</h5>
+              <h4>350$</h4>
+            </div>
+            <div class="goods__cart">
+              <a href="#"><i><img src='images/header/bag.png' alt=""></i></a>
+            </div> 
+          </div>
+  
+          <div class="goods__products" onclick="window.location.href='lv.html';">
+            <img src='images/goods/lv1.png' alt="">
+            <div class="goods__about">
+              <div class="stars">
+                <span class="active"></span>	
+                <span class="active"></span>    
+                <span class="active"></span>  
+                <span class="active"></span>    
+                <span class="active"></span>
+              </div>
+              <span><br>Louis Vuitton</span>
+              <h5>Wallet</h5>
+              <h4>280$</h4>
+            </div>
+            <div class="goods__cart">
+              <a href="#"><i><img src='images/header/bag.png' alt=""></i></a>
+            </div> 
+          </div>
+  
+          <div class="goods__products" onclick="window.location.href='joggers.html';">
+            <img src='images/goods/jogger1.png' alt="">
+            <div class="goods__about">
+              <div class="stars">
+                <span class="active"></span>	
+                <span class="active"></span>    
+                <span class="active"></span>  
+                <span class="active"></span>    
+                <span class="active"></span>
+              </div>
+              <span><br>Nike</span>
+              <h5>Joggers</h5>
+              <h4>100$</h4>
+            </div>
+            <div class="goods__cart">
+              <a href="#"><i><img src='images/header/bag.png' alt=""></i></a>
+            </div> 
+          </div>
+  
+          <div class="goods__products" onclick="window.location.href='tommy.html';">
+            <img src='images/goods/tommy1.PNG' alt="">
+            <div class="goods__about">
+              <div class="stars">
+                <span class="active"></span>	
+                <span class="active"></span>    
+                <span class="active"></span>  
+                <span class="active"></span>    
+                <span class="active"></span>
+              </div>
+              <span><br>Tommy Hilfiger</span>
+              <h5>Polo</h5>
+              <h4>130$</h4>
+            </div>
+            <div class="goods__cart">
+              <a href="#"><i><img src='images/header/bag.png' alt=""></i></a>
+            </div> 
+          </div>
+
+          <div class="goods__products" onclick="window.location.href='lacost.html';">
+            <img src='images/goods/shirt1.png' alt="">
+            <div class="goods__about">
+              <div class="stars">
+                <span class="active"></span>	
+                <span class="active"></span>    
+                <span class="active"></span>  
+                <span class="active"></span>    
+                <span class="active"></span>
+              </div>
+              <span><br>Lacoste</span>
+              <h5>Shirt</h5>
+              <h4>180$</h4>
+            </div>
+            <div class="goods__cart">
+              <a href="#"><i><img src='images/header/bag.png' alt=""></i></a>
+            </div> 
+          </div>
+  
+          <div class="goods__products" onclick="window.location.href='lacost.html';">
+            <img src='images/goods/shirt2.png' alt="">
+            <div class="goods__about">
+              <div class="stars">
+                <span class="active"></span>	
+                <span class="active"></span>    
+                <span class="active"></span>  
+                <span class="active"></span>    
+                <span class="active"></span>
+              </div>
+              <span><br>Lacoste</span>
+              <h5>Shirt</h5>
+              <h4>180$</h4>
+            </div>
+            <div class="goods__cart">
+              <a href="#"><i><img src='images/header/bag.png' alt=""></i></a>
+            </div> 
+          </div>
+  
+          <div class="goods__products" onclick="window.location.href='lacost.html';">
+            <img src='images/goods/shirt3.png' alt="">
+            <div class="goods__about">
+              <div class="stars">
+                <span class="active"></span>	
+                <span class="active"></span>    
+                <span class="active"></span>  
+                <span class="active"></span>    
+                <span class="active"></span>
+              </div>
+              <span><br>Lacoste</span>
+              <h5>Shirt</h5>
+              <h4>180$</h4>
+            </div>
+            <div class="goods__cart">
+              <a href="#"><i><img src='images/header/bag.png' alt=""></i></a>
+            </div> 
+          </div>
+  
+          <div class="goods__products" onclick="window.location.href='lacost.html';">
+            <img src='images/goods/shirt4.png' alt="">
+            <div class="goods__about">
+              <div class="stars">
+                <span class="active"></span>	
+                <span class="active"></span>    
+                <span class="active"></span>  
+                <span class="active"></span>    
+                <span class="active"></span>
+              </div>
+              <span><br>Lacoste</span>
+              <h5>Shirt</h5>
+              <h4>180$</h4>
+            </div>
+            <div class="goods__cart">
+              <a href="#"><i><img src='images/header/bag.png' alt=""></i></a>
+            </div> 
+          </div>
+  
+          <div class="goods__products" onclick="window.location.href='joggers.html';">
+            <img src='images/goods/jogger2.png' alt="">
+            <div class="goods__about">
+              <div class="stars">
+                <span class="active"></span>	
+                <span class="active"></span>    
+                <span class="active"></span>  
+                <span class="active"></span>    
+                <span class="active"></span>
+              </div>
+              <span><br>Nike</span>
+              <h5>Joggers</h5>
+              <h4>100$</h4>
+            </div>
+            <div class="goods__cart">
+              <a href="#"><i><img src='images/header/bag.png' alt=""></i></a>
+            </div> 
+          </div>
+  
+          <div class="goods__products" onclick="window.location.href='tommy.html';">
+            <img src='images/goods/tommy2.PNG' alt="">
+            <div class="goods__about">
+              <div class="stars">
+                <span class="active"></span>	
+                <span class="active"></span>    
+                <span class="active"></span>  
+                <span class="active"></span>    
+                <span class="active"></span>
+              </div>
+              <span><br>Tommy Hilfiger</span>
+              <h5>Polo</h5>
+              <h4>130$</h4>
+            </div>
+            <div class="goods__cart">
+              <a href="#"><i><img src='images/header/bag.png' alt=""></i></a>
+            </div> 
+          </div>
+  
+          <div class="goods__products" onclick="window.location.href='joggers.html';">
+            <img src='images/goods/jogger3.png' alt="">
+            <div class="goods__about">
+              <div class="stars">
+                <span class="active"></span>	
+                <span class="active"></span>    
+                <span class="active"></span>  
+                <span class="active"></span>    
+                <span class="active"></span>
+              </div>
+              <span><br>Nike</span>
+              <h5>Joggers</h5>
+              <h4>100$</h4>
+            </div>
+            <div class="goods__cart">
+              <a href="#"><i><img src='images/header/bag.png' alt=""></i></a>
+            </div> 
+          </div>
+  
+          <div class="goods__products" onclick="window.location.href='tommy.html';">
+            <img src='images/goods/tommy4.png' alt="">
+            <div class="goods__about">
+              <div class="stars">
+                <span class="active"></span>	
+                <span class="active"></span>    
+                <span class="active"></span>  
+                <span class="active"></span>    
+                <span class="active"></span>
+              </div>
+              <span><br>Tommy Hilfiger</span>
+              <h5>Polo</h5>
+              <h4>130$</h4>
+            </div>
+            <div class="goods__cart">
+              <a href="#"><i><img src='images/header/bag.png' alt=""></i></a>
+            </div> 
+          </div>
+          
+        </div>
+  
+      </section>
+
+      <section id="numpages" class="numpages">
+        <a href="#">1</a>
+        <a href="#">2</a>
+    </section>
+
+  </main>
+
+
+  <footer class="footer">
+    <div class="footer__col">
+      <img class="footer__logo" src='images/footer/logo.png' alt="">
+      <h4>Контакты</h4>
+      <p><strong>Адрес: </strong> Москва, Пресненская набережная, 10, стр. 1</p>
+      <p><strong>Часы работы: </strong> 7:00 - 23:00, С Понедельника по Субботу</p>
+      <p><strong>Телефон: </strong> +7 999 777 77 77</p>
+    </div>
+
+    <div class="footer__col">
+      <h4>Помощь и Поддержка</h4>
+      <a href="#">О нас</a>
+      <a href="#">Цена Доставки</a>
+      <a href="#">Возврат Товара</a>
+      <a href="#">Как Сделать Заказ</a>
+      <a href="#">Как Отследить Посылку</a>
+    </div>
+
+    <div class="footer__col">
+      <h4>Обслуживание клиентов</h4>
+      <a href="#">Связаться с нами</a>
+      <a href="#">Способы оплаты</a>
+      <a href="#">Бонусные баллы</a>
+      <a href="#">Ответственность</a>
+    </div>
+
+    <div class="footer__col">
+      <h4>Установить приложение</h4>
+      <p>Поддерживаемые платформы: IOS, Android</p>
+      <div class="row">
+        <img src='images/footer/apple.png' alt="">
+        <img src='images/footer/android.png' alt="">
+      </div>
+      <p>Мы принимаем</p>
+      <img src='images/footer/pay.png' alt="">
+    </div>
+
+    <div class="author">
+      <p>©2000-2023 SKAZYSS Все права защищены</p>
+    </div>
+
+
+  </footer>
+
+
+  <script src="./script/index.js"></script>
+</body>
+</html>
